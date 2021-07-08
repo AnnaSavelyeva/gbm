@@ -14,8 +14,7 @@ always explain your code, put as much detail as possible so that you and others 
  if youre using linux you right click on file and open in terminal
  
 # check quality of reads
-    fastqc is the program you call and and enter name of file, will offer names of files similar 
-    using software installed it will do the thing
+fastqc is the program you call and and enter name of file, will offer names of files similar  using software installed it will do the thing
     puts report in the same folder you navigated to
     click the report and it will open
     check for adapter sequences, if there then trim of the sequence --> use a sequence trimmer software, most times aligner software willjust ignore adapter sequence 
