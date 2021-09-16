@@ -46,14 +46,14 @@ side note: zcat command to get that (sample/file) | head
 barcoding index is with the nucleotide calls on the first line
 run the program
 
-#stringtie
+# stringtie
 Used to counts the output from HISAT2, generates counts per gene (FPKM and TPM)
 in the form of GTF file 
 stringtie program normalizes the expression values to the size of the gene
 can use htseq-count as an alternative 
 which one to use? you hope to see a lot of overlap between the results of the two programs, if not then you go back and see what's wrong with either 
 
-#ballgown
+# ballgown
 takes the FPKM and TPM (these are both different numbers that come for each gene)
 
 
