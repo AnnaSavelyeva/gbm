@@ -48,14 +48,18 @@ run the program
 
 # stringtie
 Used to counts the output from HISAT2, generates counts per gene (FPKM and TPM)
-in the form of GTF file 
+FPKM is the normalized output (to take into account the difference between longer and shorter genes, more pieces are mapped to longer genes0
+in the form of GTF file, output
 stringtie program normalizes the expression values to the size of the gene
-can use htseq-count as an alternative 
+can use htseq-count as an alternative gives you raw count instead of FPKM
 which one to use? you hope to see a lot of overlap between the results of the two programs, if not then you go back and see what's wrong with either 
 
+# R land 
 # ballgown
 takes the FPKM and TPM (these are both different numbers that come for each gene)
-
+this is an R package 
+load the libraries 
+had to put in the header
 
         
    
