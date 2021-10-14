@@ -31,7 +31,7 @@ check for adapter sequences, if there then trim of the sequence --> use a sequen
     wget ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/hg38.tar.gz
     tar -xzvf hg38.tar.gz
 
- # histat2
+ # hisat2
 after downloaded your reference genome
 to align the sequences against the genomix index 
 this is the actual program you call
